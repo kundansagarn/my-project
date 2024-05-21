@@ -1,3 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Outfit:wght@100..900&family=Sora:wght@100..800&display=swap');
+
+
+.heading{
+  font-family: sora;
+}
+
+.heading1{
+  font-family: sora;
+}
+
+.heading2{
+  font-family: sora;
+}
+
+.heading3{
+  font-family: sora;
+}
+
+.heading4{
+  font-family: outfit;
+}
+.heading5{
+  font-family: sora;
+}
+.heading6{
+  font-family: sora;
+}
+.heading7{
+  font-family: outfit;
+}
+.heading8{
+  font-family: outfit;
+}
+.para1{
+  font-family: outfit;
+}
+
+.para2{
+  font-family: outfit;
+}
+
+.para3{
+  font-family: outfit;
+}
+
+.btn{
+  font-family: outfit;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +86,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body{
+  cursor: none;
+}
+
+.heading9{
+  font-family: outfit;
 }

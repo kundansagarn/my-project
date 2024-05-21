@@ -1,0 +1,17 @@
+/* src/CustomCursor.css */
+.custom-cursor {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(242, 240, 240, 0.937);
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    mix-blend-mode: difference;
+    transition: transform 0.1s ease-out;
+}
+
+.custom-cursor.hovering {
+    transform: translate(-50%, -50%) scale(1.5);
+}
